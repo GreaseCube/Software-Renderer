@@ -1,7 +1,7 @@
 # Rotating Cube example
-A tiny software renderer written from scratch, without using any game engine, or mathematics library. 
-Written entirely in Vanilla JS, using the native `<canvas>` element.
 
+My first code-venture. A tiny software renderer written from scratch, without using any game engine, or mathematics library. 
+Written entirely in Vanilla JS, using the native `<canvas>` element, with some slight shading done on the basis of distance from the camera.
 
 https://github.com/MitchOnArch/Rotating-Cube/assets/131473518/34dd0a8e-3600-44cc-8f89-d2af7ab1ecfc
 
