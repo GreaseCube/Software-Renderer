@@ -1,0 +1,13 @@
+/* Center canvas */
+#canvas {
+	margin: 0 auto 0 auto;
+	display: block;
+	padding: 0;
+}
+
+
+body {
+	margin: 0;
+	background-color: rgb(80, 0, 0);
+
+}
