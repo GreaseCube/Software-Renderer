@@ -18,7 +18,7 @@ const N = far / (far - near)	// Z-normalization
 const Q = -near * N;
 const F = 1 / Math.tan(radians(FOV / 2))
 
-const fps = 60;
+const fps = 1000;
 const tick = 1000 / fps;
 
 let cos = (x) => { return Math.cos(radians(x)); }
