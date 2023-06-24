@@ -168,7 +168,7 @@ let light  = normalize([0, 0, -1]);
 function Run() {
 	Rect(); // clear canvas
 
-	x += 0.0004
+	x += 0.0001
 
 	cube.forEach((triangle) => {
 			let p1 = [triangle[0], triangle[1], triangle[2]]
