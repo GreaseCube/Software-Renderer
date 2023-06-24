@@ -1,1 +1,1 @@
-# Rotating-Cube
+# Tiny software renderer
