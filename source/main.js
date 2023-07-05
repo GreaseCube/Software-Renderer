@@ -84,7 +84,7 @@ function subtract(a, b) {
 
 // return magnitude of a vector
 function size(n) {
-	return n[0] ** 2 + n[1] ** 2 + n[2] ** 2
+	return (n[0] ** 2 + n[1] ** 2 + n[2] ** 2) ** .5;
 }
 
 
@@ -92,13 +92,12 @@ function size(n) {
 function normalize(n) {
 	let s = size(n);
 	return [n[0] / s, n[1] / s, n[2] / s];
-
 }
 
 
 // dot product of two vectors
 function dot(a, b) {
-	return a[0] * b[0] + a[1] * b[1] + a[2] * b[2]
+	return a[0] * b[0] + a[1] * b[1] + a[2] * b[2];
 }
 
 
@@ -143,6 +142,7 @@ function rotateZX(p, x) {
 	return [v[0], v[1], v[2] + 5] // shift the point away from the viewport
 }
 
+
 // slight lighting, based distance from light source
 function get_color(L) {
 	let i = 255 * Math.abs(L);
@@ -168,7 +168,7 @@ let light  = normalize([0, 0, -1]);
 function Run() {
 	Rect(); // clear canvas
 
-	x += 0.0001
+	x += .0001
 
 	cube.forEach((triangle) => {
 			let p1 = [triangle[0], triangle[1], triangle[2]]
@@ -184,7 +184,6 @@ function Run() {
 			let L = get_color(dot(n, light));
 
 			if (dot(n, translated) < 0.0) {
-
 				p1 = offset(multiply(p1, projection_matrix));
 				p2 = offset(multiply(p2, projection_matrix));
 				p3 = offset(multiply(p3, projection_matrix));
@@ -195,6 +194,7 @@ function Run() {
 	)
 
 }
+
 
 // window.requestAnimationFrame(Run);
 setInterval(Run, tick);
