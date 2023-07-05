@@ -171,9 +171,9 @@ function Run() {
 	x += .0001
 
 	cube.forEach((triangle) => {
-			let p1 = [triangle[0], triangle[1], triangle[2]]
-			let p2 = [triangle[3], triangle[4], triangle[5]]
-			let p3 = [triangle[6], triangle[7], triangle[8]]
+			let p1 = [triangle[0], triangle[1], triangle[2] + 2]
+			let p2 = [triangle[3], triangle[4], triangle[5] + 2]
+			let p3 = [triangle[6], triangle[7], triangle[8] + 2]
 
 			p1 = rotateZX(p1, x)
 			p2 = rotateZX(p2, x)
