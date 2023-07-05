@@ -8,5 +8,8 @@ It also does some basic polygon clipping to improve performance.
 
 
 # Running
-Download `index.html`, `main.js`, and `style.css` and place them in the same directory.
-Opening `index.html` in any web browser leads to the prompt visualization.
+```
+$ cd clone https://github.com/MitchOnArch/Software-Renderer-Demo
+$ cd Software-Renderer-Demo/source
+```
+subsequently open `index.html` in any web browser.
