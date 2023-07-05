@@ -24,6 +24,10 @@ const tick = 1000 / fps;
 let cos = (x) => { return Math.cos(radians(x)); }
 let sin = (x) => { return Math.sin(radians(x)); }
 
+// color palette
+const black = 'rgba(0, 0, 0, 255)'
+const white = 'rgba(255, 255, 255, 255)'
+
 // The projection matrix
 let projection_matrix = [
 	[A * F, 0, 0, 0],
@@ -32,9 +36,6 @@ let projection_matrix = [
 	[    0, 0, Q, 0],
 ]
 
-// color palette
-black = 'rgba(0, 0, 0, 255)'
-white = 'rgba(255, 255, 255, 255)'
 
 // Shorthand rendering functions
 function Rect(x=0, y=0, w=W, h=H, color=black) {
