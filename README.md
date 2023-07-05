@@ -4,7 +4,7 @@ My first code-venture. A tiny software renderer written from scratch, without us
 Written entirely in Vanilla JS, using the native `<canvas>` element, with some slight shading done on the basis of distance from the camera.
 It also does some basic polygon clipping to improve performance.
 
-https://github.com/MitchOnArch/Rotating-Cube/assets/131473518/34dd0a8e-3600-44cc-8f89-d2af7ab1ecfc
+https://github.com/MitchOnArch/Software-Renderer-Demo/assets/131473518/34dd0a8e-3600-44cc-8f89-d2af7ab1ecfc
 
 
 # Running
