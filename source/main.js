@@ -139,7 +139,7 @@ function rotateZX(p, x) {
 	]
 
 	v = multiply(p, rotZX)
-	return [v[0], v[1], v[2] + 5] // shift the point away from the viewport
+	return [v[0], v[1], v[2]]
 }
 
 
@@ -194,7 +194,6 @@ function Run() {
 	)
 
 }
-
 
 // window.requestAnimationFrame(Run);
 setInterval(Run, tick);
