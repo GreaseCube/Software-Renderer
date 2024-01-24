@@ -1,4 +1,4 @@
-# Rotating Cube example
+# [Easy] Software Renderer
 
 My first code-venture. A tiny software renderer written from scratch, without using any game engine, or mathematics library. 
 Written entirely in Vanilla JS, using the native `<canvas>` element, with some slight shading done on the basis of distance from the camera.
@@ -9,7 +9,7 @@ It also does some basic polygon clipping to improve performance.
 
 # Running
 ```
-$ cd clone https://github.com/MitchOnArch/Software-Renderer-Demo
-$ cd Software-Renderer-Demo/source
+$ git clone https://github.com/MitchOnArch/Software-Renderer
+$ cd Software-Renderer/source
 ```
 subsequently open `index.html` in any web browser.
