@@ -9,7 +9,7 @@ It also does some basic polygon clipping to improve performance.
 
 # Running
 ```
-$ git clone https://github.com/MitchOnArch/Software-Renderer
+$ git clone https://github.com/shivenkashyapp/Software-Renderer
 $ cd Software-Renderer/source
 ```
 subsequently open `index.html` in any web browser.
